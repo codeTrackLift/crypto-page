@@ -16,8 +16,8 @@ function App() {
       setCoinsData(response.data);
     }
     fetchData()
-    console.log(coinsData);
   }, [])
+  console.log(coinsData);
 
   const lastPostIndex = currentPage * postsPerPage;
   const firstPostIndex = lastPostIndex - postsPerPage;
